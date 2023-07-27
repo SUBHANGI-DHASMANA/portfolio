@@ -1,0 +1,85 @@
+.animation {
+  height: 50px;
+  overflow: hidden;
+}
+
+.animation>div>div {
+  padding: 0.25rem 0.75rem;
+  text-align: center;
+  color: #0f0e2c;
+  font-weight: 700;
+  margin-bottom: 2.81rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 10s infinite;
+}
+
+.first div {
+  background-color: #9796f0;
+}
+
+.second div {
+  background-color: #9796f0;
+}
+
+.third div {
+  background-color: #9796f0;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+
+  10% {
+    margin-top: 0;
+  }
+
+  20% {
+    margin-top: -5.62rem;
+  }
+
+  30% {
+    margin-top: -5.62rem;
+  }
+
+  40% {
+    margin-top: 0;
+  }
+
+  60% {
+    margin-top: 0;
+  }
+
+  70% {
+    margin-top: -5.62rem;
+  }
+
+  80% {
+    margin-top: -5.62rem;
+  }
+
+  90% {
+    margin-top: 0;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  border: none;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.glass:hover{
+  background-color: rgba(255, 255, 255, 0.215);
+  backdrop-filter: blur(100%);
+  transition: all 0.3s linear;
+}
