@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Navbar from './Navbar'
 import Container from './Container'
 import Skills from './Skills'
