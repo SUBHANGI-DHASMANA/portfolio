@@ -24,7 +24,7 @@ const Container = (props: Props) => {
                     <h1 className='text-4xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl pt-2 pb-3  lg:pt-6'>SUBHANGI DHASMANA</h1>
                     <section className="animation text-4xl">
                         <div className="first"><div className='w-full py-5'>DEVELOPER</div></div>
-                        <div className="second"><div className='w-full py-5'>DEVELOPER</div></div>
+                        <div className="second"><div className='w-full py-5'>Aspiring Sata Scientist</div></div>
                         {/* <div class="third"><div className='w-full my-5'>WEB DESIGNER</div></div> */}
                     </section>
                     <p className='text-base sm:text-xl md:text-base lg:text-xl xl:text-2xl lg:pt-6'>The data doesn&apos;t lie, but it doesn&apos;t always <br/> tell the truth.</p>
