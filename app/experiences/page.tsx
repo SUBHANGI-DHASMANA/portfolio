@@ -5,7 +5,7 @@ type Props = {}
 const Experiences = (props: Props) => {
     return (
         <div className='w-10/12 mx-auto'>
-            <h1 className='md:text-4xl text-3xl lg:text-5xl font-bold mb-10 pb-3 border-b-[1px] border-neutral-500'>Experiences</h1>
+            {/* <h1 className='md:text-4xl text-3xl lg:text-5xl font-bold mb-10 pb-3 border-b-[1px] border-neutral-500'>Experiences</h1> */}
             <div className='mt-20 grid lg:grid-cols-1 sm:grid-cols-1 grid-cols-1 sm:gap-10'>
                 <div className='border-[0.5px] border-neutral-500 block rounded-2xl my-6'>
                     <div className='py-8 bg-neutral-800 w-full text-center rounded-t-2xl'>

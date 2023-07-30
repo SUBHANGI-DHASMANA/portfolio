@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai"
 import { ImLinkedin } from "react-icons/im"
 import Image from 'next/image';
-import "./App.css"
+import "../App.css"
 
 
 type Props = {}
@@ -15,7 +15,7 @@ const Container = (props: Props) => {
                     <div className='relative'>
                         {/* <img className=' w-100% h-auto' width={600} src="pic1.png" alt="" />
                         <div className='w-[50%] overflow-hidden h-[90%] z-[-1] top-[0%] left-[25%] rounded-full bg-gradient-to-r from-slate-600 via-slate-500 to-slate-400  absolute'></div> */}
-                        <Image className=' w-100% h-auto transform -scale-x-100' width={350} src="pic2.png" alt="" />
+                        <Image className='w-100% h-auto transform -scale-x-100' width={350} height={300} src="/pic2.png" alt="" />
                         <div className='w-[100%] overflow-hidden h-[70%] z-[-1] top-[20%] left-[0%] rounded-full  absolute' style={{backgroundImage: "linear-gradient(to right, #9796f0, #fbc7d4)"}}></div>
                     </div>
                 </div>

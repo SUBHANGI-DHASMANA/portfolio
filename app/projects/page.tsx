@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React, {useState} from 'react'
 import {BsArrowUpRight} from "react-icons/bs"
+import "../App.css"
 
 type Props = {}
 
@@ -9,10 +10,36 @@ const Projects = (props: Props) => {
     const [selectedId, setSelectedId] = useState<boolean>(false)
   return (
     <div className='w-10/12 mx-auto'>
-        <h1 className='md:text-4xl text-3xl lg:text-5xl font-bold mb-10 pb-3 border-b-[1px] border-neutral-500'>Projects</h1>
+        {/* <h1 className='md:text-4xl text-3xl lg:text-5xl font-bold my-10 pb-3'>Skills and Tools</h1>
+            <div className='flex flex-col max-md:flex-wrap gap-2 justify-between mt-5'>
+                <h1 className='text-xl font-bold text-[#9796f0]'>Programming Languages</h1>
+                <div className="skill-1 flex max-md:flex-wrap gap-3">
+                    <div className="skills glass px-10 py-5">Python</div>
+                    <div className="skills glass px-10 py-5">Javascript</div>
+                    <div className="skills glass px-10 py-5">C++</div>
+                </div>
+                <h1 className='text-xl font-bold text-[#9796f0] mt-5'>Techniques</h1>
+                <div className="skill-2 flex max-md:flex-wrap gap-3">
+                    <div className="skills glass px-10 py-5">Machine learning</div>
+                    <div className="skills glass px-10 py-5">Data analysis</div>
+                    <div className="skills glass px-10 py-5">Data visualization</div>
+                    <div className="skills glass px-10 py-5">Deep learning</div>
+                </div>
+                <h1 className='text-xl font-bold text-[#9796f0] mt-5'>Libraries and tools</h1>
+                <div className="skill-3 flex max-md:flex-wrap gap-3">
+                    <div className="skills glass px-10 py-5">Tensorflow</div>
+                    <div className="skills glass px-10 py-5">Reactjs</div>
+                    <div className="skills glass px-10 py-5">Nextjs</div>
+                    <div className="skills glass px-10 py-5">Nodejs</div>
+                    <div className="skills glass px-10 py-5">Express</div>
+                    <div className="skills glass px-10 py-5">Git/Github</div>
+                    <div className="skills glass px-10 py-5">SQL</div>
+                </div>
+            </div> */}
+        {/* <h1 className='md:text-4xl text-3xl lg:text-5xl font-bold mb-10 pb-3 border-b-[1px] border-neutral-500'>Projects</h1> */}
         {/* <div className='w-10/12 box1 max-md:mt-[-50px] mt-0'></div> */}
         <div className='mt-20 md:w-9/12 mx-auto '>
-        <Image className='rounded-xl opacity-90' src="img1.png" alt="" />
+        <Image className='rounded-xl opacity-90' width={1000} height={1000} src="/img1.png" alt="" />
             <div className='my-10 sm:w-10/12 mx-auto'>
                 <h1 className='text-2xl font-bold mb-4 text-[#C9D1D8]'>Gas Concentration Time Series Prediction</h1>
                 <div className='text-neutral-300'>This app predict the value of concentration based on the input you give.</div>
@@ -20,7 +47,7 @@ const Projects = (props: Props) => {
             </div>
         </div>
         <div className='mt-20 md:w-9/12 mx-auto '>
-        <Image className='rounded-xl opacity-90' src="img2.png" alt="" />
+        <Image className='rounded-xl opacity-90' width={1000} height={1000} src="/img2.png" alt="" />
             <div className='my-10 sm:w-10/12 mx-auto'>
                 <h1 className='text-2xl font-bold mb-4 text-[#1D7A7F]'>Online Transaction Website</h1>
                 <div className='text-neutral-300'>The full-stack banking website built with the MERN stack enables users to access their past transactions, view detailed transaction history, and transfer money securely. It integrates MongoDB for data storage, Express for server-side logic, React for dynamic user interfaces, and Node.js for smooth functionality.</div>
@@ -28,7 +55,7 @@ const Projects = (props: Props) => {
             </div>
         </div>
         <div className='mt-20 md:w-9/12 mx-auto '>
-        <Image className='rounded-xl opacity-90' src="img3.png" alt="" />
+        <Image className='rounded-xl opacity-90' width={1000} height={1000} src="/img3.png" alt="" />
             <div className='my-10 sm:w-10/12 mx-auto'>
                 <h1 className='text-2xl font-bold mb-4 text-[#DF6C27]'>E-commerce Website</h1>
                 <div className='text-neutral-300'>The frontend of the e-commerce app for book sales, developed using JavaScript, offers a user-friendly interface with dynamic book listings, search filters, secure payment gateways, and interactive features to enhance the shopping experience, making it a seamless platform for book enthusiasts.</div>
