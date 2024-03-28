@@ -39,6 +39,14 @@ const Projects = (props: Props) => {
         {/* <h1 className='md:text-4xl text-3xl lg:text-5xl font-bold mb-10 pb-3 border-b-[1px] border-neutral-500'>Projects</h1> */}
         {/* <div className='w-10/12 box1 max-md:mt-[-50px] mt-0'></div> */}
         <div className='mt-20 md:w-9/12 mx-auto '>
+        <Image className='rounded-xl' width={1000} height={1000} src="/img6.png" alt="" />
+            <div className='my-10 sm:w-10/12 mx-auto'>
+                <h1 className='text-2xl font-bold mb-4 text-[#DCDBB9]'>MockBit</h1>
+                <div className='text-neutral-300'>MockBit, the cutting-edge website that aims to revolutionize the interview preparation experience for students and professionals alike. Our project is built on the foundation of Artificial Intelligence (AI), specifically integrating Large Language Models (LLM) fine-tuned with a carefully curated dataset. The result is a platform that offers a contextualized and effective mock interview experience.</div>
+                <div className='mt-6 inline-block'><a href="https://github.com/SUBHANGI-DHASMANA/Mock-bit-interview" target="_blank" className='flex items-center px-4 py-1 border-[0.5px] border-slate-500 rounded-3xl bg-neutral-800 hover:bg-neutral-700'>See Code <BsArrowUpRight size={14} className='ml-2'/></a></div>
+            </div>
+        </div>
+        <div className='mt-20 md:w-9/12 mx-auto '>
         <Image className='rounded-xl' width={1000} height={1000} src="/img4.png" alt="" />
             <div className='my-10 sm:w-10/12 mx-auto'>
                 <h1 className='text-2xl font-bold mb-4 text-[#FCD406]'>Space Missions analysis</h1>

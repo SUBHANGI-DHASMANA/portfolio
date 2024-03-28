@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={space_mono.className}>
-        <div className='w-10/12 mx-auto pt-4'>
-          <Navbar />
+        <div className='w-10/12 mx-auto pt-4 z-10'>
+          <Navbar/>
         </div>
         {children}
         <hr className="slash-1 my-20"/>

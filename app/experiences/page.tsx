@@ -13,9 +13,9 @@ const Experiences = (props: Props) => {
                     </div>
                     <div className='p-8 py-10'>
                         <h1 className='mb-1 font-bold text-[#fbc7d4]'>Lead Developer - SDC USS</h1>
-                        <p className='text-neutral-400'>May 2022 - Present</p>
+                        <p className='text-neutral-400'>May 2022 - May 2024</p>
                         <br />
-                        <p className='text-white'>- I have been working as a developer at the Software Development Cell - University School of Studies.</p>
+                        <p className='text-white'>- I worked as a web developer at the Software Development Cell - University School of Studies.</p>
                         <p className='text-white'>- I actively worked on developing new software programs for my university and continuing projects throughout this time.</p>
                         <p className='text-white'>- Projects I worked on: Attendance Management System, GGSIPU Website and Elysian Website (Techfest of USAR).</p>
                     </div>
