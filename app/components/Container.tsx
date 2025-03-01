@@ -21,8 +21,8 @@ const Container = (props: Props) => {
                     <p className='text-xl sm:text-2xl  md:text-xl lg:text-2xl xl:text-3xl'>Hello! I&apos;m</p>
                     <h1 className='text-4xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl pt-2 pb-3  lg:pt-6'>SUBHANGI DHASMANA</h1>
                     <section className="animation text-4xl">
-                        <div className="first"><div className='w-full py-5'>DEVELOPER</div></div>
-                        <div className="second"><div className='w-full py-5'>Aspiring Data Scientist</div></div>
+                        <div className="first"><div className='w-full py-5'>SOFTWARE DEVELOPER</div></div>
+                        <div className="second"><div className='w-full py-5'>WEB DEVELOPER</div></div>
                     </section>
                     <p className='text-base sm:text-xl md:text-base lg:text-xl xl:text-2xl lg:pt-6'>The data doesn&apos;t lie, but it doesn&apos;t always <br /> tell the truth.</p>
                     <div className='flex items-center mt-6 md:mt-14 z-10'>
@@ -33,7 +33,7 @@ const Container = (props: Props) => {
                         </ul>
                         <div className='flex gap-2'>
                             <a href="mailto:subhangi.dhasmana@gmail.com" className='px-4 py-[5px] whitespace-nowrap transition ease-in duration-150 bg-neutral-700 hover:bg-neutral-600 rounded-2xl border-[0.5px] border-[#363636]'>Email me</a>
-                            <a href="https://drive.google.com/file/d/1CoVgVlvLo3yswVtQqiIbYD8hkF4ZR1Ee/view?usp=sharing" target='_blank' className='px-4 py-[5px] whitespace-nowrap transition ease-in duration-150 bg-neutral-700 hover:bg-neutral-600 rounded-2xl border-[0.5px] border-[#363636]'>Resume</a>
+                            <a href="https://drive.google.com/file/d/1XdEM5Hliwl4mMvcXLk1bft5DyAGXkOsm/view?usp=sharing" target='_blank' className='px-4 py-[5px] whitespace-nowrap transition ease-in duration-150 bg-neutral-700 hover:bg-neutral-600 rounded-2xl border-[0.5px] border-[#363636]'>Resume</a>
                         </div>
                     </div>
                 </div>
