@@ -27,11 +27,11 @@ export default function Projects() {
       id: 1,
       title: 'AI Resume Tailor',
       description: 'AI-powered platform that helps job seekers quickly create personalized, ATS-optimized resumes. By simply uploading their existing resume and a job description, users can generate a tailored resume that aligns with the specific job requirements.',
-      image: '/.png',
+      image: '/ai-resume-tailor.png',
       tags: ['Nextjs', 'flask', 'langchain', 'Python'],
       category: 'AI',
-      github: '',
-      demo: ''
+      github: 'https://github.com/SUBHANGI-DHASMANA/resume-tailor',
+      demo: 'https://resume-tailor-delta.vercel.app'
     },
     {
       id: 2,
