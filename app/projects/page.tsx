@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   Typography,
   Box,
-  Paper,
   Button,
   Chip,
   useTheme,
@@ -187,7 +186,7 @@ export default function Projects() {
                   <Typography variant="h5" component="h2" gutterBottom fontWeight={600}>
                     {project.title}
                   </Typography>
-                  <Typography variant="body2" color="text.secondary" paragraph>
+                  <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
                     {project.description}
                   </Typography>
                   <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1.5, mt: 3 }}>

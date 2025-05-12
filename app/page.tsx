@@ -66,7 +66,7 @@ export default function Home() {
 
           <motion.div variants={itemVariants}>
             <Typography variant="body1" sx={{ my: 6, fontSize: '1.1rem', lineHeight: 1.8 }}>
-            I am a dedicated developer with experience in artificial intelligence, cloud computing, and full-stack development. I've keen interest in Cloud and Devops field. Experienced in programming languages such as Python, Go, and JavaScript, as well as libraries like React, Flask, and FastAPI, I enjoy playing with emerging technologies and crafting influential prototypes. Ranging from hackathon victories to reporting AI breakthroughs, I'm inspired by curiosity and a solutions-focused attitude.
+            I am a dedicated developer with experience in artificial intelligence, cloud computing, and full-stack development. I&apos;ve keen interest in Cloud and Devops field. Experienced in programming languages such as Python, Go, and JavaScript, as well as libraries like React, Flask, and FastAPI, I enjoy playing with emerging technologies and crafting influential prototypes. Ranging from hackathon victories to reporting AI breakthroughs, I&apos;m inspired by curiosity and a solutions-focused attitude.
             </Typography>
           </motion.div>
 

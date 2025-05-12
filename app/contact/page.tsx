@@ -11,12 +11,10 @@ import {
   useTheme,
   Alert,
   Snackbar,
-  Grid,
   CircularProgress
 } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import PhoneIcon from '@mui/icons-material/Phone';
 import SendIcon from '@mui/icons-material/Send';
 import emailjs from '@emailjs/browser';
 
@@ -299,34 +297,7 @@ export default function Contact() {
                 </div>
               </motion.div>
 
-              {/* <motion.div
-                variants={itemVariants}
-                className="flex items-start mb-6"
-              >
-                <Box
-                  sx={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    width: 40,
-                    height: 40,
-                    borderRadius: '50%',
-                    backgroundColor: 'primary.main',
-                    color: 'white',
-                    mr: 2
-                  }}
-                >
-                  <PhoneIcon />
-                </Box>
-                <div>
-                  <Typography variant="subtitle1" fontWeight={600}>
-                    Phone
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    +1 (123) 456-7890
-                  </Typography>
-                </div>
-              </motion.div> */}
+              {/* Phone section removed */}
 
               <motion.div
                 variants={itemVariants}
